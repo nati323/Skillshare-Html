@@ -145,6 +145,20 @@ nav ul li a{
 }
 .more-info{
     text-align: center;
+}
+.more-info h2{
+
+}
+
+
+.highlight{
+    background-color:#ffadf9;
+    color: #FF3300;
+    padding: 5px;
+    line-height: 50px;
+    display: inline;
+    font-weight: 800;
+
 }  
 /*
  <div class="hero-banner">
