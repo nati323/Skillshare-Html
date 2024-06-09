@@ -11,6 +11,10 @@ h1{
     font-size: 50px;
 
 }
+h2{
+    font-weight: 800;
+    font-size: 50px;
+}
 h4{
     font-weight: bold;
     font-size: 20px;
@@ -19,6 +23,11 @@ h4{
 h3{
     font-weight: bold;
     font-size: 30px;
+}
+p{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0;
 }
 .wrapper{
     width: 960px;
@@ -93,8 +102,50 @@ button.cta.alt{
     position: absolute; bottom: 40px; right: 109px;
 
 }
-
-  
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+}
+nav.logo{
+    display: block;
+    width: 1174px;
+    height: 297px;
+    position: absolute; top: 50%; left: 0;
+    margin-top: -20px;
+    margin-left: 30px;
+    background: url(characters/logo3.png) no-repeat 0 0;
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -999px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+}
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #111111;
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: 30px;
+}
+.more-info{
+    text-align: center;
+}  
 /*
  <div class="hero-banner">
       <div class="wrapper">
