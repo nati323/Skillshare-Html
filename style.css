@@ -68,6 +68,15 @@ button.cta{
     padding: 20px 30px;
     border-radius: 10px;
     text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+a.cta:active,
+button.cta:active{
+    opacity: .7;
+
 
 }
 a.cta.alt,
@@ -108,6 +117,7 @@ nav{
     box-shadow: 0 5px 8px rgba(0,0,0,.2);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 nav.logo{
     display: block;
@@ -147,9 +157,8 @@ nav ul li a{
     text-align: center;
 }
 .more-info h2{
-
+    margin: 18px 0 35px;
 }
-
 
 .highlight{
     background-color:#ffadf9;
@@ -160,6 +169,79 @@ nav ul li a{
     font-weight: 800;
 
 }  
+.sep{
+    width: 470px;
+    height: 10px;
+    background-color: #111111;
+    margin: 70px auto;
+}
+.story h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.nb-list{
+    width: 470px;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+    background-color:#EDEDED;
+    float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+.nb-list li{
+    height: 70px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+    padding: 6px 20px;
+    box-sizing: border-box;
+
+}
+.nb-list li.red{background-color:#FF3300;}
+.nb-list li.blue{background-color: #007FFF;}
+.nb-list li.grey{background-color: rgba(0, 0, 0,.1);}
+.nb-list li.yellow{background-color: #FFD400;
+color: #111111;}
+.nb-list li.pink{background-color: #ffadf9;}
+.nb-list li.salmon{background-color: #FA8072;}
+
+.nb-list li.dragging{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    right: -30px;
+    transform: rotate(6deg);
+    box-shadow: 0 2px 14px rgba(0, 0, 0, .3);
+
+}
+.nb-list li.dragging::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width:54px;
+    height:50px;
+    background: url(characters/hand3.png) no-repeat 0 0;
+    background-size: 100%;
+    bottom:-30px;
+    left: 60%;
+
+
+}
+.gang-img{
+    display: block;
+    margin: 0 auto;
+}
+footer{
+    text-align: center;
+    color: rgba(0, 0, 0, .4);
+    font-size: 20px;
+    margin: 85px 0 45px;
+    font-weight: bold;
+}
+
 /*
  <div class="hero-banner">
       <div class="wrapper">
